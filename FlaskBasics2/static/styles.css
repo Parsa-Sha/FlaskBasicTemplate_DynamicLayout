@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color:#000000;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.dark-blue {
+    background-color: #00008B;
+    color: white;
+}
+
+button.light-blue {
+    background-color: #ADD8E6;
+    color: black;
+}
+
+button:hover {
+    opacity: 0.8;
+}
